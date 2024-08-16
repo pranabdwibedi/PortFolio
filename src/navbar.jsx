@@ -3,48 +3,37 @@ import React from "react";
 function Navbar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
-        <div className="container-fluid">
-          <a className="navbar-brand" href="#">
-            Navbar
+      <ul class="nav nav-underline ms-2">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">
+            Pranab Kumar Dwibedi
           </a>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
-                  Home
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Features
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Pricing
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link disabled" aria-disabled="true">
-                  Disabled
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            Education
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Courses & Certificates
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">C PROGRAMMING LANGUAGE</a></li>
+            <li><a class="dropdown-item" href="#">Programming with JavaScript</a></li>
+            <li><a class="dropdown-item" href="#"></a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Internships
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">DRDO</a></li>
+            <li><a class="dropdown-item" href="#">Bharat Intern</a></li>
+          </ul>
+        </li>
+      </ul>
     </>
   );
 }
