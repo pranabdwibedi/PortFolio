@@ -3,35 +3,36 @@ import React from "react";
 function Navbar() {
   return (
     <>
-      <ul class="nav nav-underline ms-2">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">
+      <ul className="nav nav-underline ms-2 d-flex justify-content-between pe-5 ps-2">
+        <li className="nav-item me-4">
+          <a className="nav-link active" aria-current="page" href="#">
             Pranab Kumar Dwibedi
           </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
+        <li className="nav-item me-4">
+          <a className="nav-link" href="/">
+            Home
+          </a>
+        </li>
+        <li className="nav-item me-4">
+          <a className="nav-link" href="Education">
             Education
           </a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <li className="nav-item me-4">
+          <a className="nav-link" href="#">
             Courses & Certificates
           </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">C PROGRAMMING LANGUAGE</a></li>
-            <li><a class="dropdown-item" href="#">Programming with JavaScript</a></li>
-            <li><a class="dropdown-item" href="#"></a></li>
-          </ul>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Internships
+        <li className="nav-item me-4">
+          <a className="nav-link" href="#">
+          Internships
           </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">DRDO</a></li>
-            <li><a class="dropdown-item" href="#">Bharat Intern</a></li>
-          </ul>
+        </li>
+        <li className="nav-item me-4">
+          <a className="nav-link" href="#">
+          Contact me
+          </a>
         </li>
       </ul>
     </>
