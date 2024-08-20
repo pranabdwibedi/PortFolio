@@ -4,7 +4,6 @@ import Navbar from "./navbar";
 function Education() {
   return (
     <div className="ParentContainer">
-    <Navbar/>
     <div className="custom-container">
       <h3>Education : </h3>
       <table className="tableClass">

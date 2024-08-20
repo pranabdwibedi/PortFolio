@@ -1,12 +1,32 @@
 *{
     background: transparent;
 }
-.custom-Container{
-    width: 100vw;
-    height: 100vh;
+.customNavWhite{
+    background-color: #d2dafe;
+    color: black;
+}
+.customNavBlack{
+    background-color: #101324;
+    color: White;
+
+}
+.customNavBlack img{
+    filter: invert();
+}
+.customNavBlack *{
+    color: White;
+}
+.ThemeChanger{
+    align-self: center;
+    display: flex;
+    gap: 10px;
+}
+.ThemeChanger input{
+    height: 12px;
+    align-self: center;
 }
 .logo{
-    height: 30px;
+    height: 40px;
     margin-right: 10px;
     border-radius: 50px;
 }
