@@ -1,9 +1,11 @@
 import React from "react";
 import "./education.css";
+import Navbar from "./navbar";
 function Education() {
   return (
-    <>
-    <div className="container mt-5">
+    <div className="ParentContainer">
+    <Navbar/>
+    <div className="custom-container">
       <h3>Education : </h3>
       <table className="tableClass">
         <thead>
@@ -29,7 +31,7 @@ function Education() {
                 href="https://drive.google.com/file/d/1xpvNAwOp9I0tKqHF_hZA4dkL5jBev6l_/view?usp=drive_link"
                 target="_blank"
               >
-                <button type="button" class="btn btn-success">
+                <button type="button" className="btn btn-success">
                   View Marksheet
                 </button>
               </a>
@@ -49,7 +51,7 @@ function Education() {
                 href="https://drive.google.com/file/d/1ZYPPx1QZkYcXybpywA5RCQSktlO_bSvc/view?usp=sharing"
                 target="_blank"
               >
-                <button type="button" class="btn btn-success">
+                <button type="button" className="btn btn-success">
                   View Marksheet
                 </button>
               </a>
@@ -66,7 +68,7 @@ function Education() {
                 href="https://drive.google.com/file/d/1ixO-z57nZwAQ_2NugyXvwDsYXP_UYrnE/view?usp=sharing"
                 target="_blank"
               >
-                <button type="button" class="btn btn-success">
+                <button type="button" className="btn btn-success">
                   View Marksheet
                 </button>
               </a>
@@ -76,10 +78,10 @@ function Education() {
       </table>
       <div className="aboutMyEducation">
         <h3>About My College : </h3>
-        <p>I have done my Bachelor's degree at Balasore College of Engineering and Technology which is situated near the national highway 5 at sergarh, balasore and which is a very prestigious college for engineering studies in northen Odisha. In my college time I was the Class Representative of our class which taught me alot about the team building and managing people. I was also a ISTE(Indian Society for Technical Education) volunter when my college hosted the 25th ISTE student convention in the year 2024.</p>
+        <p>I have done my Bachelor's degree at Balasore College of Engineering and Technology in Information Technology(IT). My college is situated near the national highway 5(NH5) at sergarh, balasore and which is a very prestigious college for engineering studies in northen Odisha. In my college time I was the Class Representative of our class which taught me alot about the team building and managing people. I was also a ISTE(Indian Society for Technical Education) volunter when my college hosted the 25th ISTE student convention in the year 2024.</p>
       </div>
     </div>
-    </>
+    </div>
   );
 }
 
