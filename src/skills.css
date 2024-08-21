@@ -21,6 +21,9 @@
     width: 45%;
     margin: 10px;
 }
+.cardBoxes:hover{
+    box-shadow: 5px 5px 30px black;
+}
 .customImage{
     height: 80px;
     margin: 10px;

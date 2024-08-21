@@ -65,6 +65,10 @@ function Skills({isDark}) {
           />
         </div>
       </div>
+      {/* <div className="container">
+        <h2>CertifiCates :</h2>
+
+      </div> */}
     </div>
   );
 }
