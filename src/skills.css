@@ -1,0 +1,46 @@
+.skill-parent-containerWhite{
+    height: 91vh;
+    width: 100vw;
+    background-color: #d2dafe;
+    overflow-y: scroll;
+}
+.skill-parent-containerBlack{
+    height: 91vh;
+    width: 100vw;
+    background-color: #101324;
+    overflow-y: scroll;
+}
+.cardContainer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cardBoxes{
+    width: 45%;
+    margin: 10px;
+}
+.customImage{
+    height: 80px;
+    margin: 10px;
+}
+@media screen and (max-width: 700px){
+    .customImage{
+        height: 50px;
+        margin: 10px;
+    }
+    .cardBoxes{
+        width: 100%;
+        margin: 10px;
+    }
+}
+.width-60{
+    width: 60%;
+}
+.width-80{
+    width: 80%;
+}
+.width-70{
+    width: 70%;
+}

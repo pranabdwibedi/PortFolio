@@ -1,9 +1,9 @@
 import React from "react";
 import "./education.css";
 import Navbar from "./navbar";
-function Education() {
+function Education({isDark}) {
   return (
-    <div className="ParentContainer">
+    <div className={`${isDark ? "ParentContainerBlack" : "ParentContainerWhite"}`}>
     <div className="custom-container">
       <h3>Education : </h3>
       <table className="tableClass">

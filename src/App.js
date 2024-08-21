@@ -15,8 +15,8 @@ function App() {
       <Navbar isDark = {isDark} setIsDark = {setIsDark}/>
       <Routes>
         <Route path="/portfolio" element={<Home isDark = {isDark}/>}></Route>
-        <Route path="/portfolio/education" element={<Education/>}></Route>
-        <Route path="/portfolio/skills" element={<Skills/>}></Route>
+        <Route path="/portfolio/education" element={<Education isDark = {isDark}/>}></Route>
+        <Route path="/portfolio/skills" element={<Skills isDark={isDark}/>}></Route>
       </Routes>
       </BrowserRouter>
     </div>

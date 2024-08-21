@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.css";
-import imagePath from "./profile.jpg";
+import imagePath from "./assets/profile.jpg";
 import { NavLink } from "react-router-dom";
 
 function Home({ isDark }) {

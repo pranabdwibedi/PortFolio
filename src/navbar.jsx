@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import logo from "./logo.png";
+import logo from "./assets/logo.png";
 import "./navbar.css";
 
 function Navbar({isDark, setIsDark}) {
@@ -31,7 +31,7 @@ function Navbar({isDark, setIsDark}) {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div className={`collapse navbar-collapse ${isDark?"bgBlack":"bgWhite"}`} id="navbarNavAltMarkup">
             <div className="navbar-nav">
             <NavLink to="/portfolio" aria-current="page" className="nav-link active">
                 <b>Home</b>
@@ -48,7 +48,8 @@ function Navbar({isDark, setIsDark}) {
               <NavLink to="/portfolio/contactMe" className="nav-link me-5">
                 <b>Contact me</b>
               </NavLink>
-              <div className="form-check form-switch ThemeChanger">
+            </div>
+            <div className="form-check form-switch ThemeChanger">
                 <input
                   className="form-check-input"
                   type="checkbox"
@@ -60,10 +61,9 @@ function Navbar({isDark, setIsDark}) {
                   className="form-check-label"
                   htmlFor="flexSwitchCheckChecked"
                 >
-                  <b>Change Theme</b>
+                  <b>Dark Theme</b>
                 </label>
               </div>
-            </div>
           </div>
         </div>
       </nav>
