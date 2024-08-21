@@ -45,6 +45,9 @@ function Navbar({isDark, setIsDark}) {
               <NavLink to="/portfolio/internships" className="nav-link">
                 <b>Internships</b>
               </NavLink>
+              <NavLink to="/portfolio/internships" className="nav-link">
+                <b>Projects</b>
+              </NavLink>
               <NavLink to="/portfolio/contactMe" className="nav-link me-5">
                 <b>Contact me</b>
               </NavLink>

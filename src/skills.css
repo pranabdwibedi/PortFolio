@@ -12,6 +12,9 @@
 }
 .cardContainer{
     width: 80%;
+    height: max-content;
+    padding-top: 30px;
+    padding-bottom: 30px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -19,9 +22,14 @@
 }
 .cardBoxes{
     width: 45%;
+    height: fit-content;
     margin: 10px;
+    border-radius: 20px;
 }
-.cardBoxes:hover{
+.cardBoxesBlack:hover{
+    box-shadow: 5px 5px 10px rgb(118, 124, 216);
+}
+.cardBoxesWhite:hover{
     box-shadow: 5px 5px 30px black;
 }
 .customImage{
@@ -46,4 +54,11 @@
 }
 .width-70{
     width: 70%;
+}
+.slideBar{
+    width: 70%;
+    margin: auto;
+}
+.nav-buttons{
+    filter: invert();
 }

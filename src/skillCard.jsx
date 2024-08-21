@@ -3,7 +3,7 @@ import "./skills.css";
 function SkillCard({ imgSrc, cardTitle, percentCovered }) {
   return (
     <div>
-      <div className="card mb-3">
+      <div className="card">
         <div className="row g-0">
           <div className="col-md-4">
             <img
