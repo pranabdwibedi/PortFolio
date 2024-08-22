@@ -58,6 +58,9 @@
     display: flex;
     gap: 10px;
 }
+.ThemeChanger:hover, .ThemeChanger label:hover, .ThemeChanger input:hover{
+    cursor: pointer;
+}
 .ThemeChanger input{
     height: 12px;
     align-self: center;

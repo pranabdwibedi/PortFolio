@@ -1,13 +1,11 @@
 .skill-parent-containerWhite{
     height: 91vh;
     width: 100vw;
-    background-color: #d2dafe;
     overflow-y: scroll;
 }
 .skill-parent-containerBlack{
     height: 91vh;
     width: 100vw;
-    background-color: #101324;
     overflow-y: scroll;
 }
 .cardContainer{
@@ -61,4 +59,20 @@
 }
 .nav-buttons{
     filter: invert();
+}
+.LeaderImage{
+    height: 80vh;
+    width: 100%;
+}
+.darkMode{
+    background-color: #101324;
+    color: white;
+}
+.LightMode{
+    background-color: #d2dafe;
+    color: black;
+}
+.customSoftSkillBox{
+    border: 2px solid rgb(98, 98, 172);
+    border-radius: 10px;
 }
