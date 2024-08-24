@@ -13,7 +13,7 @@ import certificatePython from "./assets/Python Quiz_page-0001.jpg";
 import certificateJava from "./assets/Java_page-0001.jpg";
 import certificateleader from "./assets/LeaderShip.png";
 import certificateParticipate from "./assets/Participation Certificate.jpg";
-import "./skills.css";
+import "./CSS/skills.css";
 
 function Skills({ isDark }) {
   const [show, setShow] = useState(true);
@@ -41,10 +41,10 @@ function Skills({ isDark }) {
           onClick={() => setShow(false)}
         ></button>
       </div>
-      <h2 className={`container ${isDark ? "text-white" : "text-dark"}`}>
+      <h2 className={`container ${isDark ? "darkMode" : "lightMode"}`}>
         Technical skills :
       </h2>
-      <div className="cardContainer mb-2">
+      <div className="cardContainer mb-4">
         <div
           className={`cardBoxes ${
             isDark ? "cardBoxesBlack" : "cardBoxesWhite"
@@ -114,12 +114,12 @@ function Skills({ isDark }) {
         </div>
       </div>
       <div className="container">
-        <h2 className={`${isDark ? "text-white" : "text-dark"}`}>
+        <h2 className={`${isDark ? "darkMode" : "lightMode"}`}>
           CertifiCates :
         </h2>
         <div
           id="carouselExampleAutoplaying"
-          className="carousel slide slideBar mb-4"
+          className="carousel slide slideBar mt-5 mb-5"
           data-bs-ride="carousel"
         >
           <div className="carousel-inner">
@@ -172,39 +172,35 @@ function Skills({ isDark }) {
             <span className="visually-hidden">Next</span>
           </button>
         </div>
-        <h3 className={`${isDark ? "text-white" : "text-dark"}`}>View or Download all Certificates :</h3>
-        <div className="container d-flex w-75 justify-content-between mb-3">
+        <h3 className={`${isDark ? "darkMode" : "lightMode"}`}>View or Download all Certificates :</h3>
+        <div className="container d-flex w-75 justify-content-between mb-3 mt-3">
           <a
-            href="https://drive.google.com/file/d/1G796e3wA-HSbw6seXpqYWPZTpyno77ok/view?usp=sharing"
+            href="https://drive.google.com/file/d/1G796e3wA-HSbw6seXpqYWPZTpyno77ok/view?usp=sharing" class="btn btn-outline-primary"
+            role="button"
             target="_blank"
           >
-            <button type="button" className="btn btn-outline-primary">
               JavaScript
-            </button>
           </a>
           <a
-            href="https://drive.google.com/file/d/1iZO1iOrxEkaaXDXSw1i-1zMfpMuhEN0K/view?usp=sharing"
+            href="https://drive.google.com/file/d/1iZO1iOrxEkaaXDXSw1i-1zMfpMuhEN0K/view?usp=sharing" class="btn btn-outline-primary"
+            role="button"
             target="_blank"
           >
-            <button type="button" className="btn btn-outline-primary">
               C Language
-            </button>
           </a>
           <a
-            href="https://drive.google.com/file/d/1hmYNbyAoFSf5FgszFoYXTpPu49UEetxw/view?usp=sharing"
+            href="https://drive.google.com/file/d/1hmYNbyAoFSf5FgszFoYXTpPu49UEetxw/view?usp=sharing" class="btn btn-outline-primary"
+            role="button"
             target="_blank"
           >
-            <button type="button" className="btn btn-outline-primary">
               Java
-            </button>
           </a>
           <a
-            href="https://drive.google.com/file/d/1ZnOdvQmlkHv5A-qkzRP2AzYepVCt2rZL/view?usp=sharing"
+            href="https://drive.google.com/file/d/1ZnOdvQmlkHv5A-qkzRP2AzYepVCt2rZL/view?usp=sharing" class="btn btn-outline-primary"
+            role="button"
             target="_blank"
           >
-            <button type="button" className="btn btn-outline-primary">
               Python Quiz
-            </button>
           </a>
         </div>
         <div className="softSkills">
@@ -280,10 +276,11 @@ function Skills({ isDark }) {
               </div>
             </div>
           </div>
-        <div className="LeaderSkill mb-3 mt-5">
-          <h3 className={`${isDark ? "text-white" : "text-dark"}`}>Add-on Certificates :</h3>
+        <div className="LeaderSkill d-flex flex-column mb-3 mt-5">
+          <h3 className={`${isDark ? "darkMode" : "lightMode"}`}>Add-on Certificates :</h3>
           <p className={`${isDark ? "text-white" : "text-dark"}`}>I got a certificate for showcasing <b>'LeaderShip Skills'</b> in executing the workshop named <b>"AI for Students : Build your own generative AI model"</b> which was conducted by <b>AI expert and IIT Delhi alumnus, Mr. Trivikrama</b> and organized by <b>NextWave</b> at Our College.</p>
           <img src={certificateleader} alt="" className="LeaderImage"/>
+          <a class="btn btn-outline-primary mt-2 mb-4 w-25 align-self-center" href="https://drive.google.com/file/d/18WnyxAX4_TNrH4PBsmgMV7s6_l9d-bSG/view?usp=sharing" role="button" target="_blank">View or Download</a>
         </div>
         </div>
       </div>

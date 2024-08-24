@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import logo from "./assets/logo.png";
-import "./navbar.css";
+import "./CSS/navbar.css";
 
 function Navbar({isDark, setIsDark}) {
   let settingTheme = () =>{
@@ -42,10 +42,10 @@ function Navbar({isDark, setIsDark}) {
               <NavLink className="nav-link" to="/portfolio/skills">
                 <b>skills</b>
               </NavLink>
-              <NavLink to="/portfolio/internships" className="nav-link">
+              <NavLink to="/portfolio/internship" className="nav-link">
                 <b>Internships</b>
               </NavLink>
-              <NavLink to="/portfolio/internships" className="nav-link">
+              <NavLink to="/portfolio/project" className="nav-link">
                 <b>Projects</b>
               </NavLink>
               <NavLink to="/portfolio/contactMe" className="nav-link me-5">

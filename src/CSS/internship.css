@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Internship-parent-container{
+    width: 100vw;
+    height: 91vh;
+    overflow-y: scroll;
+}
+.darkMode{
+    background-color: #101324;
+    color: white;
+}
+.lightMode{
+    background-color: #d2dafe;
+    color: black;
+}
+.internships-container{
+    width: 90%;
+    margin: auto;
+}
+.internshipHeader img{
+    max-width: 8vw;
+}
+@media screen and (max-width:1000px){
+    .internshipHeader img{
+        height: 50px;
+    } 
+    .internshipHeader h4{
+        max-width : 70%;
+    }
+}
+.DRDOInternShip p a{
+    text-decoration: none;
+}
+.DRDOInternShip p{
+    margin-top: 5px;
+    font-size: large;
+    text-wrap: wrap;
+}

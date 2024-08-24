@@ -1,0 +1,72 @@
+*{
+    background: transparent;
+}
+.customNavWhite{
+    background-color: #d2dafe;
+    color: black;
+    height: 9vh;
+}
+.customNavBlack{
+    background-color: #101324;
+    color: White;
+    height: 9vh;
+
+}
+.bgWhite{
+    background-color: #d2dafe;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.bgBlack{
+    background-color: #101324;
+    color: White;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+@media screen and (max-width: 1000px) {
+    .bgWhite{
+        background-color: #d2dafe;
+        color: black;
+        display: flex;
+        justify-content: space-around;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+    .bgBlack{
+        background-color: #101324;
+        color: White;
+        display: flex;
+        justify-content: space-around;
+        border-radius: 10px;
+        border: 1px solid white;
+    }
+    .customNavBlack div button{
+        filter: invert();
+    }
+}
+.customNavBlack img{
+    filter: invert();
+}
+.customNavBlack *{
+    color: White;
+}
+.ThemeChanger{
+    align-self: center;
+    display: flex;
+    gap: 10px;
+}
+.ThemeChanger:hover, .ThemeChanger label:hover, .ThemeChanger input:hover{
+    cursor: pointer;
+}
+.ThemeChanger input{
+    height: 12px;
+    align-self: center;
+}
+.logo{
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50px;
+}

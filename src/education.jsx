@@ -1,6 +1,5 @@
 import React from "react";
-import "./education.css";
-import Navbar from "./navbar";
+import "./CSS/education.css";
 function Education({isDark}) {
   return (
     <div className={`${isDark ? "ParentContainerBlack" : "ParentContainerWhite"}`}>

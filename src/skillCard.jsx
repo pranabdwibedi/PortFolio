@@ -1,5 +1,5 @@
 import React from "react";
-import "./skills.css";
+import "./CSS/skills.css";
 function SkillCard({ imgSrc, cardTitle, percentCovered }) {
   return (
     <div>
