@@ -14,7 +14,7 @@ function Internship({ isDark }) {
       <div className="internships-container">
         <h3 className="mt-3">Internships :</h3>
         <div className="DRDOInternShip mt-3">
-          <div className="internshipHeader d-flex justify-content-between mb-5">
+          <div className="internshipHeader d-flex justify-content-between align-items-center mb-5">
             <h4>Defence Research and Development Organisation (DRDO) : </h4>
             <div className="logoContainer">
               <img src={drdoLogo} alt="DRDO Logo" />
