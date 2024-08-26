@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.fcaa0276.css",
-    "main.js": "/portfolio/static/js/main.d22469a0.js",
+    "main.js": "/portfolio/static/js/main.62bc66d2.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/DRDO Award.jpg": "/portfolio/static/media/DRDO Award.1cfb3c582f4c71a0c0e4.jpg",
     "static/media/Group Image.JPG": "/portfolio/static/media/Group Image.530ddec56269d2058be8.JPG",
+    "static/media/profileImage.jpg": "/portfolio/static/media/profileImage.ff2342de42cff7631aa2.jpg",
     "static/media/JavaScript_page-0001.jpg": "/portfolio/static/media/JavaScript_page-0001.10c1ed1cbb8c60b448fc.jpg",
-    "static/media/profile.jpg": "/portfolio/static/media/profile.406466845c61041d77e1.jpg",
     "static/media/C.jpg": "/portfolio/static/media/C.1cfc056e38c902f439f2.jpg",
+    "static/media/profile.jpg": "/portfolio/static/media/profile.e821ef3ac04731454afa.jpg",
     "static/media/Java_page-0001.jpg": "/portfolio/static/media/Java_page-0001.68caa37a6e193a0b2f9b.jpg",
     "static/media/Python Quiz_page-0001.jpg": "/portfolio/static/media/Python Quiz_page-0001.9f0ab9534b1f676fb78e.jpg",
     "static/media/LeaderShip.png": "/portfolio/static/media/LeaderShip.9c2c294e2b1b0c212e9c.png",
@@ -34,11 +35,11 @@
     "static/media/gitHub.svg": "/portfolio/static/media/gitHub.1c9897c9e04b5ac4985609423e392d5e.svg",
     "static/media/linkedInLogo.svg": "/portfolio/static/media/linkedInLogo.396766598cdb2380da7f33c9d34f86f4.svg",
     "main.fcaa0276.css.map": "/portfolio/static/css/main.fcaa0276.css.map",
-    "main.d22469a0.js.map": "/portfolio/static/js/main.d22469a0.js.map",
+    "main.62bc66d2.js.map": "/portfolio/static/js/main.62bc66d2.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fcaa0276.css",
-    "static/js/main.d22469a0.js"
+    "static/js/main.62bc66d2.js"
   ]
 }
