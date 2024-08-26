@@ -1,6 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import logo from "./assets/logo.png";
+import linkedInLogo from './assets/linkedInLogo.svg';
+import gitHubLogo from './assets/gitHub.svg';
 import "./CSS/navbar.css";
 
 function Navbar({isDark, setIsDark}) {
@@ -48,9 +50,13 @@ function Navbar({isDark, setIsDark}) {
               <NavLink to="/portfolio/project" className="nav-link">
                 <b>Projects</b>
               </NavLink>
-              <NavLink to="/portfolio/contactMe" className="nav-link me-5">
+              <NavLink to="/portfolio/contactme" className="nav-link me-5">
                 <b>Contact me</b>
               </NavLink>
+              <div className="d-flex gap-4">
+              <a href="https://www.linkedin.com/in/pranab-dwibedi/"><img src={linkedInLogo} height={30}/></a>
+              <a href="https://github.com/pranabdwibedi"><img src={gitHubLogo} height={30}/></a>
+              </div>
             </div>
             <div className="form-check form-switch ThemeChanger">
                 <input

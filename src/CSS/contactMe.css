@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contactMe-parent-container{
+    height: 91vh;
+    width: 100vw;
+    overflow-y: scroll;
+}
+.darkMode{
+    background-color: #101324;
+    color: white;
+}
+.LightMode{
+    background-color: #d2dafe;
+    color: black;
+}
+.socialLinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.height-90vh{
+    height: 90vh;
+}
+.h-40{
+    height: 40%;
+}
+.h-60{
+    height: 60%;
+}
+.heading{
+    font-size: 80px;
+    font-weight: 600;
+    display: inline;
+    margin: auto;
+    text-decoration: underline;
+}
+.email{
+    text-align: center;
+    margin-top: 30px;
+    font-size: larger;
+    font-weight: 600;
+}
+.profileImage{
+    border-radius: 40px;
+}
+.filter-invert{
+    filter: invert();
+}

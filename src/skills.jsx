@@ -175,28 +175,28 @@ function Skills({ isDark }) {
         <h3 className={`${isDark ? "darkMode" : "lightMode"}`}>View or Download all Certificates :</h3>
         <div className="container d-flex w-75 justify-content-between mb-3 mt-3">
           <a
-            href="https://drive.google.com/file/d/1G796e3wA-HSbw6seXpqYWPZTpyno77ok/view?usp=sharing" class="btn btn-outline-primary"
+            href="https://drive.google.com/file/d/1G796e3wA-HSbw6seXpqYWPZTpyno77ok/view?usp=sharing" className="btn btn-outline-primary"
             role="button"
             target="_blank"
           >
               JavaScript
           </a>
           <a
-            href="https://drive.google.com/file/d/1iZO1iOrxEkaaXDXSw1i-1zMfpMuhEN0K/view?usp=sharing" class="btn btn-outline-primary"
+            href="https://drive.google.com/file/d/1iZO1iOrxEkaaXDXSw1i-1zMfpMuhEN0K/view?usp=sharing" className="btn btn-outline-primary"
             role="button"
             target="_blank"
           >
               C Language
           </a>
           <a
-            href="https://drive.google.com/file/d/1hmYNbyAoFSf5FgszFoYXTpPu49UEetxw/view?usp=sharing" class="btn btn-outline-primary"
+            href="https://drive.google.com/file/d/1hmYNbyAoFSf5FgszFoYXTpPu49UEetxw/view?usp=sharing" className="btn btn-outline-primary"
             role="button"
             target="_blank"
           >
               Java
           </a>
           <a
-            href="https://drive.google.com/file/d/1ZnOdvQmlkHv5A-qkzRP2AzYepVCt2rZL/view?usp=sharing" class="btn btn-outline-primary"
+            href="https://drive.google.com/file/d/1ZnOdvQmlkHv5A-qkzRP2AzYepVCt2rZL/view?usp=sharing" className="btn btn-outline-primary"
             role="button"
             target="_blank"
           >
@@ -205,11 +205,11 @@ function Skills({ isDark }) {
         </div>
         <div className="softSkills">
           <h3 className={`${isDark ? "darkMode" : "lightMode"}`}>Soft Skills :</h3>
-          <div class="accordion  mt-4 mb-3 customSoftSkillBox" id="accordionFlushExample">
-            <div class={`accordion-item ${isDark ? "darkMode" : "lightMode"}`}>
-              <h2 class="accordion-header">
+          <div className="accordion  mt-4 mb-3 customSoftSkillBox" id="accordionFlushExample">
+            <div className={`accordion-item ${isDark ? "darkMode" : "lightMode"}`}>
+              <h2 className="accordion-header">
                 <button
-                  class={`accordion-button collapsed ${isDark ? "darkMode" : "lightMode"}`}
+                  className={`accordion-button collapsed ${isDark ? "darkMode" : "lightMode"}`}
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseOne"
@@ -221,18 +221,18 @@ function Skills({ isDark }) {
               </h2>
               <div
                 id="flush-collapseOne"
-                class="accordion-collapse collapse"
+                className="accordion-collapse collapse"
                 data-bs-parent="#accordionFlushExample"
               >
-                <div class="accordion-body">
+                <div className="accordion-body">
                   Since I was the Class Representative of my class in my college time, I have lead my class many times during my college time.
                 </div>
               </div>
             </div>
-            <div class={`accordion-item ${isDark ? "darkMode" : "lightMode"}`}>
-              <h2 class="accordion-header">
+            <div className={`accordion-item ${isDark ? "darkMode" : "lightMode"}`}>
+              <h2 className="accordion-header">
                 <button
-                  class={`accordion-button collapsed ${isDark ? "darkMode" : "lightMode"}`}
+                  className={`accordion-button collapsed ${isDark ? "darkMode" : "lightMode"}`}
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseTwo"
@@ -244,18 +244,18 @@ function Skills({ isDark }) {
               </h2>
               <div
                 id="flush-collapseTwo"
-                class="accordion-collapse collapse"
+                className="accordion-collapse collapse"
                 data-bs-parent="#accordionFlushExample"
               >
-                <div class="accordion-body">
+                <div className="accordion-body">
                 I efficiently prioritize tasks to meet deadlines and maintain a balanced workload. My ability to manage time ensures consistent productivity and quality in all my projects.
                 </div>
               </div>
             </div>
-            <div class={`accordion-item ${isDark ? "darkMode" : "lightMode"}`}>
-              <h2 class="accordion-header">
+            <div className={`accordion-item ${isDark ? "darkMode" : "lightMode"}`}>
+              <h2 className="accordion-header">
                 <button
-                  class={`accordion-button collapsed ${isDark ? "darkMode" : "lightMode"}`}
+                  className={`accordion-button collapsed ${isDark ? "darkMode" : "lightMode"}`}
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseThree"
@@ -267,10 +267,10 @@ function Skills({ isDark }) {
               </h2>
               <div
                 id="flush-collapseThree"
-                class="accordion-collapse collapse"
+                className="accordion-collapse collapse"
                 data-bs-parent="#accordionFlushExample"
               >
-                <div class="accordion-body">
+                <div className="accordion-body">
                   During my Internship and college Projects I have worked in team and done many tasks very efficiently.
                 </div>
               </div>
@@ -280,7 +280,7 @@ function Skills({ isDark }) {
           <h3 className={`${isDark ? "darkMode" : "lightMode"}`}>Add-on Certificates :</h3>
           <p className={`${isDark ? "text-white" : "text-dark"}`}>I got a certificate for showcasing <b>'LeaderShip Skills'</b> in executing the workshop named <b>"AI for Students : Build your own generative AI model"</b> which was conducted by <b>AI expert and IIT Delhi alumnus, Mr. Trivikrama</b> and organized by <b>NextWave</b> at Our College.</p>
           <img src={certificateleader} alt="" className="LeaderImage"/>
-          <a class="btn btn-outline-primary mt-2 mb-4 w-25 align-self-center" href="https://drive.google.com/file/d/18WnyxAX4_TNrH4PBsmgMV7s6_l9d-bSG/view?usp=sharing" role="button" target="_blank">View or Download</a>
+          <a className="btn btn-outline-primary mt-2 mb-4 w-25 align-self-center" href="https://drive.google.com/file/d/18WnyxAX4_TNrH4PBsmgMV7s6_l9d-bSG/view?usp=sharing" role="button" target="_blank">View or Download</a>
         </div>
         </div>
       </div>
