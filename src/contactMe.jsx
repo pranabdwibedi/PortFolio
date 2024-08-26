@@ -23,13 +23,15 @@ function ContactMe({ isDark }) {
          </div>
          <p className='m-auto'>Email me at :- <b>pranabkumardwiedi@gmail.com</b></p>
       </div> */}
-      <div className="d-flex width-80 m-auto height-90vh">
-        <img src={profilePic} alt="" className="w-50 profileImage" />
-        <div className="rightBox w-50 w-100 d-flex flex-column">
-          <div className="rightupBox h-40 d-flex">
-            <p className="heading ps-5">Contact Me</p>
+      <div className="contactMeContainer">
+        <div className="leftBox">
+        <img src={profilePic} alt="" className="profileImage" />
+        </div>
+        <div className="rightBox">
+          <div className="rightupBox">
+            <p className="heading">Contact Me</p>
           </div>
-          <div className="rightDownBox h-60 w-100">
+          <div className="rightDownBox">
             <div className="socialLinks">
               <a href="https://www.linkedin.com/in/pranab-dwibedi/">
                 <img src={linkedInLogo} height={40} className={`${isDark?"filter-invert":""}`} />

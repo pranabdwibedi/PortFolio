@@ -8,11 +8,11 @@ function Home({ isDark }) {
   };
   return (
     <div
-      className={`${isDark ? "ParentContainerBlack" : "ParentContainerWhite"}`}
+      className={`ParentContainer ${isDark ? "darkMode" : "lightMode"}`}
     >
       <div className="home-custom-container">
         <img src={imagePath} alt="profile" className="profilePhoto" />
-        <div className={`${isDark ? "CustomAboutBlack" : "CustomAboutWhite"}`}>
+        <div className="CustomAbout">
           <h3>Pranab Kumar Dwibedi</h3>
           <p>
             Passionate about technology since childhood, I'm a dedicated
