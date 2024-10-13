@@ -22,7 +22,7 @@ function Home({ isDark }) {
             Development.
           </p>
         </div>
-        <a href="https://drive.google.com/file/d/1Lqqya1R3Me9UkfY3kWAKta7lHt1dF5ku/view?usp=drive_link" target="_blank">
+        <a href="https://drive.google.com/file/d/1qoGfu4NQ7eBouPCPsu8glwXNHfUeem0V/view?usp=sharing" target="_blank">
         <button type="button" className="btn btn-outline-primary customBtn">
             Resume
           </button>
